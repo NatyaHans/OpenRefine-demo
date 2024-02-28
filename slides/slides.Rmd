@@ -53,8 +53,6 @@ class: inverse, center, middle
 
 OpenRefine is a free open-source tool to clean data in a **scalable** and **reproducible** way.
 
---
-
 Finding/fixing errors works for small data, but:
 * spotting inconsistencies is harder in larger datasets
 * applying corrections identically to larger datasets is tedious!
@@ -67,17 +65,6 @@ Finding/fixing errors works for small data, but:
 * complicated calculations (e.g. performing numerical simulations)
 * non-tabular data
   - BUT there are some features to help with basic un"tidy"ness
-
----
-# Learning Outcomes
-
-By the end of the workshop, participants will be able to:
-`r gsub("\n ", "\n", desc::desc_get("learningOutcomes"))`
-
----
-class: inverse, center, middle
-
-# Introduction to OpenRefine
 
 ---
 # Basic Workflow
@@ -137,11 +124,6 @@ knitr::include_graphics("export_project.png")
 ```
 
 ---
-class: center, middle
-
-# DEMO
-
----
 # Explore Data Distributions
 
 * Use facets to examine how values are distributed in your data
@@ -157,16 +139,6 @@ knitr::include_graphics("text_facet.png")
 ```
 
 ---
-class: center, middle
-
-# DEMO
-
----
-class: inverse, center, middle
-
-# Basic Error Correction
-
----
 # Categorical Variables
 
 * data values may have typos and/or errors
@@ -176,11 +148,6 @@ class: inverse, center, middle
   - edit the labels directly in Facet mode
   - use 'Cluster' options to find groups of similar labels  
     (maybe these should be the same label?)
-
----
-class: center, middle
-
-# DEMO
 
 ---
 # Clustering Methods
@@ -215,27 +182,12 @@ knitr::include_graphics("edit_column.png")
   * programmable in [General Refine Expression Language](https://openrefine.org/docs/manual/grel)
 
 ---
-class: center, middle
-
-# DEMO
-
----
-class: inverse, center, middle
-
-# Saving Data Cleaning Steps
-
----
 # Reproducibility
 
 * OpenRefine records all data transformations
 * `Undo/Redo` allows you to select different stages of processing to revert to
 * `Extract` allows you to export the transformation steps in JSON format
 * `Apply` allows you to perform a set of transformations from JSON format
-
----
-class: center, middle
-
-# DEMO
 
 ---
 # Summary
@@ -246,11 +198,4 @@ OpenRefine has a lot of functionality!
 * reproducible processing workflows
 * lots of online examples and extensions
 
----
-# Thanks
 
-* Let me know what content you'd like to see
-* Contact me for additional questions or consultation requests!
-* Check back in on the libguide for more modules and contact info:
-  - https://guides.uflib.ufl.edu/reproducibility
-* Orignal slides courtesy of Hao Ye
